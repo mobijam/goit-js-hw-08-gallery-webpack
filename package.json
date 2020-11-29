@@ -17,7 +17,7 @@
   "author": "Viktoriia Strelnikova <v.strelnikova91@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mobijam/goit-js-hw-08-gallery-webpack/issues"
+    "url": "https://github.com/mobijam/goit-js-hw-08-gallery-webpack"
   },
   "homepage": "https://mobijam.github.io/goit-js-hw-08-gallery-webpack/",
   "devDependencies": {
@@ -51,16 +51,5 @@
   "dependencies": {
     "core-js": "^3.8.0",
     "handlebars": "^4.7.6"
-  },
-  "customDistStructure": {
-    "config": {
-      ".css": "css",
-      ".js": "js",
-      "images": [
-        ".jpg",
-        ".svg",
-        ".png"
-      ]
-    }
   }
 }
