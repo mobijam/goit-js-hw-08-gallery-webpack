@@ -1,9 +1,7 @@
 import galleryItems from './gallery-items.js';
 
 const galleryContainer = document.querySelector('.js-gallery');
-
 const imagesMarkup = createGalleryElementsMarkup(galleryItems);
-
 galleryContainer.innerHTML = imagesMarkup;
 
 function createGalleryElementsMarkup(gallery) {
@@ -14,7 +12,7 @@ function createGalleryElementsMarkup(gallery) {
             href="${original}">
         <img
             loading="lazy"
-            class="gallery__image lazyload"
+            class="gallery__image"
             src="${preview}"
             data-src="${original}"
             alt="${description}"/>
@@ -23,4 +21,3 @@ function createGalleryElementsMarkup(gallery) {
     })
         .join('');
 }
-
